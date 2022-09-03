@@ -1,5 +1,3 @@
-#from typing import str
-
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         s = "".join(sorted(s))
